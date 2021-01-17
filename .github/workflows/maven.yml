@@ -13,7 +13,7 @@ jobs:
   test: 
     name: Running JUnit Tests
 
-    runs-on: ubuntu-latest
+    runs-on:  windows-latest
     env:
       DISPLAY: ':99'
 
