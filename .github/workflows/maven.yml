@@ -22,5 +22,5 @@ jobs:
       with:
         java-version: 15
     - name: Build with Maven
-      run: mvn clean install -B package --file pom.xml  -Dtest=* test -Djava.awt.headless=true
+      run: mvn -B package --file pom.xml -Dtest=* test  -Djava.awt.headless=true
 
