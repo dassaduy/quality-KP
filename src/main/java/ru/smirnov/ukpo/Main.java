@@ -6,5 +6,11 @@ public class Main {
         Gauss gauss = new Gauss();
         System.out.println(gauss.countTheMatrix(
                 new Double[][]{{1., 2., 4.}, {2., 1., 2.82}}));
+
+        Form form;
+        form = new Form();
+        form.pack();
+        form.setSize(900, 600);
+        form.setVisible(true);
     }
 }
