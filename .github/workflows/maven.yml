@@ -22,5 +22,5 @@ jobs:
       with:
         java-version: 15
     - name: Build with Maven
-      run: mvn -B package --file pom.xml  -Dtest=GaussTest* test
+      run: mvn -B package --file pom.xml  -Dtest=* test
 
